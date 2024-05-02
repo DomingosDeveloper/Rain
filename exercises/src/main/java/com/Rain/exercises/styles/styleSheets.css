@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.activity-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.activity-description {
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+}
+
+.activity-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.activity-detail {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.detail-label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.detail-value {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
